@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name" : "Ars",
+  "email" : "arsen.melikyan@gmail.com",
+  "dob" : "1995-02-13"
+}
+
+###
+DELETE http://localhost:8080/api/v1/student/1
+
+###
+PUT http://localhost:8080/api/v1/student/1?name=ArsenMelikyan&email=melikyan@gmail.com
+Content-Type: application/json
+
+<> 2023-02-28T115723.500.json
+
